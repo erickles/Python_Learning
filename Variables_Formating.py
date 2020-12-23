@@ -38,3 +38,20 @@ print('The {2} {1} {0} '.format('fox', 'brown','quick'))
 # print('The {0} {0} {0} '.format('fox', 'brown','quick'))
 
 print('The {q} {b} {f} '.format(f='fox', b='brown',q='quick'))
+
+# Formating number with precision
+result = 100/777
+
+print("The result was {r:5.3f}".format(r=result))
+
+name = 'Jose'
+
+print('Hello, his name is {}'.format(name))
+
+print(f'Hello, his name is {name}')
+
+age = 30
+
+print(f'{name} is {age} years old.')
+
+print('Python {}'.format('rules'))
