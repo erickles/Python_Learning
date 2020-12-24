@@ -40,3 +40,13 @@ for key,value in d.items():
 
 for value in d.values():
     print(value)
+
+x = [1,2,3]
+
+for i in x:
+    if i == 1:
+        pass
+    elif i == 2:
+        print(f'This is {i}')
+    else:
+        break
