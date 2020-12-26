@@ -55,3 +55,23 @@ age = 30
 print(f'{name} is {age} years old.')
 
 print('Python {}'.format('rules'))
+
+def myfunc(str):
+    
+    mystr = ''
+    counter = 1
+    
+    for letter in str:
+        if counter % 2 == 0:
+            print('counter even')
+            mystr = mystr + letter.upper()
+        else:
+            print('counter odd')
+            mystr = mystr + letter.lower()
+        counter=counter+1
+        
+    return mystr
+
+result4 = myfunc('Erick')
+
+print(result4)
