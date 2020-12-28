@@ -9,7 +9,7 @@ class Account():
 
     def withdrawal(self,withdrawal_amount):
         if self.balance >= withdrawal_amount:
-            self.balance = -= withdrawal_amount
+            self.balance = self.balance -= withdrawal_amount
             print("Withdrawal accepted")
         else:
             print("Sorry non enough funds!")
