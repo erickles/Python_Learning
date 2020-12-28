@@ -21,3 +21,16 @@ def myfunc3(*args, **kwargs):
     print('I would like {} {}'.format(args[0], kwargs['food']))
 
 myfunc3(1,2,3,4,5,fruit='Mango', food='Chicken')
+
+x = 50
+
+def myfunc4():
+    global x
+    print(f'X is {x}')
+
+    x = 'NEW VALUE'
+    print(f'I just locally changed global x to {x}')
+
+myfunc4()
+
+print(x)
